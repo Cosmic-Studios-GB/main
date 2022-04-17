@@ -1,401 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
- 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
- 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Studios</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="style.css">
-
-
-  <title>Cosmic Studios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body>
-
-  <
-  <header id="sticky-header" class="bg-header sticky-top">
-    <div class="container " style="width: 100%;">
-      <nav id="" class="navbar navbar-expand-lg navbar-light text-white ">
-        <a class="navbar-brand" href="#"><img class="img-fluid logo-image" src="images/logo1.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""><img src="https://img.icons8.com/fluent-systems-filled/48/000000/menu.png"/></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav text-white mr-auto pl-5">
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">HOME<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">ABOUT <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">Developer Blog<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">TEA<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">WORKS <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">PEOPLE SAY <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-dark" href="#">CONTACT <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
+  <header class="w-full bg-purple-500 text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="images/icon.png" class="xl:w-1/2 md:w-1/3" alt="logo">
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 text-gray-900 font-bold"><span class="xl:text-md">Home</span></a>
+        <a class="mr-5 text-gray-900"><span class="xl:text-md">Blog</span></a>
+        <a class="mr-5 text-gray-900"><span class="xl:text-md">About</span></a>
+        <a class="mr-5 text-gray-900"><span class="xl:text-md">Leaks</span></a>
+        <a class="mr-5 text-gray-900"><span class="xl:text-md">Contact</span></a>
       </nav>
+      <button class="inline-flex items-center bg-purple-400 text-gray-900 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">Services
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container position-relative align-content-center">
-      <div class=" text-center headertext">
-        <h2 class="heading-text-main  text-center text-white h2 ">Cosmic Studios</h2>
-        <h2 class="heading-text  text-center text-white h2">We are Cosmic Studios, bringing you multiple iconic game experiences,websites,applications and much more!</h2>
-        <a href="#about" class="glow-on-hover btn rounded-pill font-weight-bold" type="button">Explore</a>
+  <!-- Main -->
+  <section class="text-gray-600 body-font py-20" style="background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/company.jpg); background-size: cover;">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-6xl text-3xl mb-3 font-medium text-white" style="font-family: 'Dancing Script', cursive;">Cosmic Studios</h1>
+        <p class="mb-8 text-xl leading-relaxed text-white">We are Cosmic Studios, bringing you multiple iconic game experiences, websites, applications and much more!</p>
+      </div>
+      <button class="inline-flex text-xl glow-on-hover items-center text-gray-900 bg-purple-400 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">Explore
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 border-l-2 border-blue-500 pl-6">
+          <h2 class="text-sm title-font text-gray-500 font-bold tracking-widest uppercase">About Us</h2>
+          <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Cosmic Origin</h1>
+          <p class="leading-relaxed mb-4">A dream is all it takes to go the distance. The story of Cosmic Studios. Cosmic Studios Was founded in the end of 2019 by GalaxyBoy later known as GalaxyDaDev. At first Galaxy was running it alone later joined by alot of others . at first we only made roblox games which didnt even go a little popular many times but as we know success doesnt come in minutes .the games started to improve and the response started to grow and we established a small little empire making low-key roblox-games, graphics and websites by helping alot of people!</p>
+        </div>
+        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="/images/main.jpg">
       </div>
     </div>
   </section>
-  
-  <section id="about" class="about">
-    <div class="container">
-      <div class="heading">
-        <h2 class="py-4"> About us </h2>
-      </div>
-      <div class="row my-3">
-        <div class="col-md-6">
-          <div class="text">
-            <h1 class="h1"><b>Cosmic Origin</b></h1>
-            <p>A dream is all it takes to go the distance. The story of Cosmic Studios. Cosmic Studios Was founded in the end of 2019 by GalaxyBoy later known as GalaxyDaDev. At first Galaxy was running it alone later joined by alot of others . at first we only made roblox games which didnt even go a little popular many times but as we know success doesnt come in minutes .the games started to improve and the response started to grow and we established a small little empire making low-key roblox-games,graphics and websites by helping alot of people!</p>
+  <hr>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-12 mx-auto">
+      <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Our Services</h1>
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <i class="bi bi-globe2 text-3xl rounded-full mr-4"></i>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Web Development</h2>
+              <p class="text-gray-500">We make low-key cool and neat custom websites for all purpose in not a very high price!</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <img class="img-fluid" src="images/company.jpg">
+        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <i class="bi bi-phone text-3xl rounded-full mr-4"></i>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Mobile Roblox Games</h2>
+              <p class="text-gray-500">Games that have been customely made to work the best on roblox mobile android, tablets, iOS</p>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <i class="bi bi-phone text-3xl rounded-full mr-4"></i>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Desktop Roblox Games</h2>
+              <p class="text-gray-500">Great Looking and High Quality games made only for Computers and Laptops</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <i class="bi bi-box text-3xl rounded-full mr-4"></i>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Graphics</h2>
+              <p class="text-gray-500">We also make low-key Roblox GFXs, Youtube Banners, Profile Pictures and more</p>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
+  <hr>
 
-  <section class="serviesSection pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center serviesheader serviesheader-servise mb-3 font-weight-bold py-4">Our Servies</h2>
-        </div>
+  <!-- Pricing -->
+  <section class="text-gray-600 body-font overflow-hidden">
+    <div class="container px-5 py-12 mx-auto">
+      <div class="flex flex-col text-center w-full">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-12 text-gray-900">Pricing</h1>
       </div>
-     
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="servises">
-            <div class="servises-icon">
-              <i class="fas fa-globe"></i>
-            </div>
-            <div class="servises-body">
-              <h2 class="h3 text-center">Web Development</h2>
-              <p class="servises-info">We make low-key cool and neat custom websites for all purpose in not a very high price!</p>
-            </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+            <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Graphic Designing</h1>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Decent Quality
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Will be designed as per how you will want it
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>No Delays in order
+            </p>
+            <a href="https://discord.gg/wYxzFugXH6" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Contact Us on Discord
+              <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg> -->
+            </a>
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="servises">
-            <div class="servises-icon">
-              <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div class="servises-body">
-              <h2 class="h3 text-center">Mobile Roblox Games</h2>
-              <p class="servises-info">Games that have been customely made to work the best on roblox mobile android,tab,ios</p>
-            </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+            <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Roblox Development</h1>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Low-key Scripter
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Low-key Graphic Designer
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Low-key Modeler
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>No Delays in Order
+            </p>
+            <a href="https://discord.gg/wYxzFugXH6" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Contact Us on Discord
+              <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg> -->
+            </a>
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="servises">
-            <div class="servises-icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="servises-body">
-              <h2 class="h3 text-center">Desktop Roblox Game</h2>
-              <p class="servises-info">Low-key high quality games made only for pc</p>
-            </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+            <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Discord Bot Development</h1>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Will be hosted for lifetime
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Monthly Updates
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Changes on Demand
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Quick Responses and Support
+            </p>
+            <a href="https://discord.gg/wYxzFugXH6" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Contact Us on Discord
+              <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg> -->
+            </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="servises">
-            <div class="servises-icon">
-              <i class="fab fa-uncharted"></i>
-            </div>
-            <div class="servises-body">
-              <h2 class="h3 text-center">Graphics</h2>
-              <p class="servises-info">We do make low-key Roblox Gfx's ,Youtube Banners,Profile Pictures</p>
-            </div>
-          </div>
-        </div>
-
-     
-
-       
-      </div>
-    </div>  
-  </section>
- 
-  <section class="pricing">
-    <div data-aos="fade-up" class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center serviesheader mb-3 py-4 font-weight-bold">Pricing</h2>
-        </div>
-      </div>
-      <div class="row pb-5 pt-4">
-      
-        <div class="col-md-3">
-          <div class="card card-shadow card-shadow-active mb-3 " style="height: 425px;">
-            <h5 style="font-size: 20px;" class="h5 text-center font-weight-bold list-group-item text-uppercase">Graphic
-              <span class="kkk"></span>
-            </h5>
-            <p style="font-size: 18px;" class="text-center list-group-item">From <span
-                style="color: #2ECC71;">10-50 Robux</span>
-              depending on what and how you want it</p>
-            <ul class="list-unstyled mt-5 mx-auto">
-              <li>Pretty Decent Quality</li>
-              <li>Designed as you want it to be</li>
-              <li>No delays on order</li>
-            </ul>
-            <div class="  mb-0 mt-auto mx-auto">
-              <a href="#" class="btn btn-primary mb-4 rounded-pill card-link text-uppercase">Under Maintenance</a>
-            </div>
-          </div>
-        </div>
-       
-        <div class="col-md-3 mb-5">
-          <div style="overflow: hidden; height: 425px;" class="card card-shadow-active card-shadow mb-3">
-            <div style="overflow: hidden;">
-              <h5 style="font-size: 20px;" class="h5 text-center font-weight-bold list-group-item text-uppercase">
-                Roblox Development<span class="kkk"></span></h5>
-              <p style="font-size: 18px;" class="text-center list-group-item">From <span
-                  style="color: #2ECC71;">1000-5000 robux</span>
-                depending on the game details</p>
-            </div>
-            <div class="recommend text-uppercase"></div>
-            <ul class="list-unstyled mt-5 mx-auto">
-              <li>Low key Scripter</li>
-              <li>Low key Graphic-Designer</li>
-              <li>Low key Modeler</li>
-              <li>No Delays</li>
-            </ul>
-            <div class="  mb-0 mt-auto mx-auto">
-              <a href="#" class="btn btn-primary mb-4 rounded-pill card-link text-uppercase">Under Maintenance</a>
-            </div>
-          </div>
-        </div>
-       
-        <div class="col-md-3">
-          <div class="card card-shadow card-shadow-active mb-3 " style="height: 425px;">
-            <h5 style="font-size: 20px;" class="h5 text-center font-weight-bold list-group-item text-uppercase">Web Development
-              <span class="kkk"></span>
-            </h5>
-            <p style="font-size: 18px;" class="text-center list-group-item">From <span
-                style="color: #2ECC71;">$10-$50(or 5k robux)</span>
-                for a fully custom webpage</p>
-            <ul class="list-unstyled mt-5 mx-auto">
-              <li>Life time web hosting</li>
-              <li>Custom domain</li>
-              <li>Monthly Updates</li>
-            </ul>
-            <div class="  mb-0 mt-auto mx-auto">
-              <a href="#" class="btn btn-primary mb-4 rounded-pill card-link text-uppercase">Under Maintenance</a>
-            </div>
-          </div>
-        </div>
-      
-        <div class="col-md-3">
-          <div class="card card-shadow card-shadow-active mb-3 " style="height: 425px;">
-            <h5 style="font-size: 20px;" class="h5 text-center font-weight-bold list-group-item text-uppercase">Discord Bot
-              <span class="kkk"></span>
-            </h5>
-            <p style="font-size: 18px;" class="text-center list-group-item">From <span
-                style="color: #2ECC71;">$5 or 500 robux</span>
-              for a fully custom made bot</p>
-            <ul class="list-unstyled mt-5 mx-auto">
-              <li>Life time online</li>
-              <li>Monthly Updates</li>
-              <li>Changes on Demand</li>
-              <li>Fast Bug Fixes</li>
-            </ul>
-            <div class="  mb-0 mt-auto mx-auto">
-              <a href="#" class="btn btn-primary mb-4 rounded-pill card-link text-uppercase">Under Maintenance</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
- 
-  <section class="clinesection">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center serviesheader mb-3 py-4 font-weight-bold text-white">Client Feedback</h2>
-        </div>
-      
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="owl-carousel owl-theme ">
-            <div class="row slidersection text-center  ">
-              <div class="name text-white">
-                <img class="img-fluid clinephoto" src="images/man1.jpg" alt="">
-                <h2>Md Abu Raihan</h2>
-                <h4 class="h5">Web developer</h5>
-                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio
-                    debitis
-                    quisquam impedit iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio! Quia
-                    alias
-                    dignissimos illo!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio debitis quisquam
-                    impedit
-                    iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio! Quia alias
-                    dignissimos
-                    illo!</p>
-              </div>
-            </div>
-            
-            <div class="row slidersection text-center  ">
-              <div class="name text-white">
-                <img class="img-fluid clinephoto" src="images/man2.jpg" alt="">
-                <h2>Nazmul Hasan</h2>
-                <h4 class="h5">Web developer</h5>
-                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio
-                    debitis
-                    quisquam impedit iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio! Quia
-                    alias
-                    dignissimos illo!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio debitis quisquam
-                    impedit
-                    iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio! Quia alias
-                    dignissimos
-                    illo!</p>
-              </div>
-            </div>
-           
-            <div class="row slidersection text-center ">
-              <div class="name text-white">
-                <img class="img-fluid clinephoto" src="images/man3.jpg" alt="">
-                <h2>Princ Ahmed</h2>
-                <h4 class="h5">Web developer</h5>
-                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio
-                    debitis
-                    quisquam impedit iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio!
-                    dignissimos illo!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum optio debitis quisquam
-                    impedit
-                    iste ab. Cupiditate iure id in soluta, laudantium quam nesciunt ducimus optio! Quia alias
-                    dignissimos
-                    illo!
-                  </p>
-              </div>
-            </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+            <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Web Development</h1>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Will be hosted for lifetime
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Custom Domain <span class="text-sm ml-2">(price can increase depending on the purchasing domain)</span>
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Changes on Demand
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Quick Responses and Support
+            </p>
+            <a href="https://discord.gg/wYxzFugXH6" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Contact Us on Discord
+              <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg> -->
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
-  >
-  <footer>
-    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#2ecc71" fill-opacity="1"
-        d="M0,256L120,213.3C240,171,480,85,720,85.3C960,85,1200,171,1320,213.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <h4>Product</h4>
-          <ul>
-          
-            
-            <li class="list-group bg-transparent"><a href="#">Pricing</a></li>
-            <li class="list-group bg-transparent"><a href="#">Games</a></li>
-            <li class="list-group bg-transparent"><a href="#">Allies</a></li>
-            <li class="list-group bg-transparent"><a href="#">Supporters</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h4>c</h4>
-          <ul>
-          
-            <li class="list-group bg-transparent"><a href="/">Developer Blog</a></li>
-            <li class="list-group bg-transparent"><a href="/">Leaks</a></li>
-            <li class="list-group bg-transparent"><a href="/">Staff-Apps</a></li>
-          
-            <li class="list-group bg-transparent"><a href="/">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h4>Lern More</h4>
-          <ul>
-          <li class="list-group bg-transparent"><a href="/"></li><li class="list-group bg-transparent"><a href="/"></li>
-          
-            <li class="list-group bg-transparent"><a href="#">Developers</a></li>
-            <li class="list-group bg-transparent"><a href="#">Partner program</a></li>
-            <li class="list-group bg-transparent"><a href="#">affiliat program</a></li>
-         
-          
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h4></h4>
-          <ul>
-            <li class="list-group bg-transparent"><a href="/"></li>
-             <li class="list-group bg-transparent"><a href="/"></li>
-             <li class="list-group bg-transparent"><a href="/"></li>
-             <li class="list-group bg-transparent"><a href="/"></li>
-           <li class="list-group bg-transparent"><a href="/"> <i class="fab fa-twitter"></i>twitter</a></li>
-            <li class="list-group bg-transparent"><a href="/"> <i class="fab fa-youtube-square"></i> youtube</a></li>
-            <li class="list-group bg-transparent"><a href="/"> <i class="fab fa-discord"></i>Discord</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <div class="main-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <p> &copy; Copyright Cosmic Studios 2019. </p>
-        </div>
-        <div class="col-6">
-          <a href="/"><i class="fas fa-phone-volume"></i>contact with designer team through our discord</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/main.js"></script>
-    -->
 </body>
-
 </html>
