@@ -1,9 +1,9 @@
 {
-  "name": "argon-design-system",
-  "description": "Bootstrap 4 Argon Design System",
+  "name": "CosmicStudios",
+  "description": "Cosmic Studios Website",
   "version": "1.2.2",
-  "homepage": "http://creative-tim.com/product/argon-design-system",
-  "author": "Creative Tim",
+  "homepage": "https://cosmicstudios.ga/",
+  "author": "GalaxyDaDev",
   "license": "Creative Tim License <www.creative-tim.com/license>",
   "devDependencies": {
     "gulp": "^4.0.2",

@@ -1,12 +1,12 @@
 {
-  "name": "creativetimofficial/argon-design-system",
-  "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
+  "name": "Cosmic Studios",
+  "description": "Cosmic Studios Site",
   "type": "project",
   "license": "MIT",
   "authors": [
     {
-      "name": "Creative Tim",
-      "email": "support@creative-tim.com"
+      "name": "GalaxyDaDev",
+      "email": "himanshu.cosmicstudios@gmail.com"
     }
   ],
   "require": {}

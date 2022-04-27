@@ -1,15 +1,15 @@
 {
   "name": "argon-design-system-free",
-  "homepage": "https://demos.creative-tim.com/argon-design-system",
+  "homepage": "https://cosmicstudios.ga/",
   "authors": [
-      "Creative Tim"
+      "GalaxyDaDev"
   ],
-  "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
+  "description": "Cosmic Studios Website",
   "main": "gulpfile.js",
   "keywords": [
-      "argon",
-      "system design",
-      "bootstrap",
+      "cosmicstudios",
+      "roblox",
+      "developer",
       "design",
       "google",
       "twitter"
