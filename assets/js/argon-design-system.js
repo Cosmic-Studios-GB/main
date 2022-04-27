@@ -1,19 +1,4 @@
-/*!
 
- =========================================================
- * Argon Design System - v1.2.2
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/argon-design-system
- * Copyright 2020 Creative Tim (http://www.creative-tim.com)
-
- * Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
 
 
 var transparent = true;
@@ -35,7 +20,7 @@ var $tagsinput = $('.tagsinput');
   var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
   if (isWindows) {
-    // if we are on windows OS we activate the perfectScrollbar function
+  
 
     $('.wrapper .login-page, .register-page, .card').perfectScrollbar();
 
@@ -54,10 +39,10 @@ var $tagsinput = $('.tagsinput');
 })();
 
 $(document).ready(function() {
-  //  Activate the Tooltips
+
   $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
 
-  // Activate Popovers and set color for popovers
+
   $('[data-toggle="popover"]').each(function() {
     color_class = $(this).data('color');
     $(this).popover({
@@ -92,13 +77,13 @@ $(document).ready(function() {
     });
   }
 
-  // Activate the image for the navbar-collapse
+
   ArgonKit.initNavbarImage();
 
   $navbar = $('.navbar[color-on-scroll]');
   scroll_distance = $navbar.attr('color-on-scroll') || 500;
 
-  // Check if we have the class "navbar-color-on-scroll" then add the function to remove the class "navbar-transparent" so it will transform to a plain color.
+  
 
   if ($('.navbar[color-on-scroll]').length != 0) {
     ArgonKit.checkScrollForTransparentNavbar();
@@ -111,7 +96,6 @@ $(document).ready(function() {
     $(this).parent(".input-group").removeClass("input-group-focus");
   });
 
-  // Activate bootstrapSwitch
   $('.bootstrap-switch').each(function() {
     $this = $(this);
     data_on_label = $this.data('on-label') || '';
@@ -123,12 +107,11 @@ $(document).ready(function() {
     });
   });
 
-  // Activate Carousel
+
   $('.carousel').carousel({
     interval: false
   });
 
-  // Datepicker
   $('.datepicker')[0] && $('.datepicker').each(function() {
     $('.datepicker').datepicker({
       disableTouchKeyboard: true,
@@ -137,26 +120,25 @@ $(document).ready(function() {
   });
 
 
-  // Datepicker
   flatpickr('.flatpickr', {});
 
-  // Datepicker - range
+
   flatpickr('.range', {
     mode: "range"
   });
 
-  // DateTimePicker
+
   flatpickr('.datetimepicker', {
     enableTime: true,
     dateFormat: "Y-m-d H:i",
   });
 
-  // Activate Sliders
+
   ArgonKit.initSliders();
 
 });
 
-// Methods
+
 
 function hideNavbarCollapse($this) {
   $this.addClass('collapsing-out');
@@ -167,7 +149,6 @@ function hiddenNavbarCollapse($this) {
 }
 
 
-// Events
 
 if ($collapse.length) {
   $collapse.on({
@@ -184,10 +165,7 @@ if ($collapse.length) {
 }
 
 
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
+
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -261,7 +239,7 @@ ArgonKit = {
   },
 
   initSliders: function() {
-    // Sliders for demo purpose in refine cards section
+   
     var slider = document.getElementById('sliderRegular');
     if ($('#sliderRegular').length != 0) {
 
@@ -293,10 +271,7 @@ ArgonKit = {
 
 
 
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
+
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -311,3 +286,5 @@ function debounce(func, wait, immediate) {
     if (immediate && !timeout) func.apply(context, args);
   };
 };
+
+
